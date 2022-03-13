@@ -8,26 +8,65 @@
     tools:context=".dashboard">
 
         <LinearLayout
-            android:layout_width="250dp"
-            android:layout_height="120dp"
-            android:orientation="horizontal">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/side_nav_bar">
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:text="_SITM_"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:text="_SITM_\n Barabanki"
                 android:textSize="30dp"
-                android:background="@drawable/side_nav_bar"
+                android:layout_marginLeft="20dp"
                 android:textStyle="bold"
                 android:typeface="serif"></TextView>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="100dp"
-            android:layout_height="120dp"
-            android:orientation="horizontal">
+
             <de.hdodenhof.circleimageview.CircleImageView
-                android:layout_width="100dp"
+                android:layout_width="150dp"
                 android:layout_height="100dp"
+                android:layout_marginLeft="60dp"
                 android:layout_gravity="left"
                 android:src="@drawable/sagar"></de.hdodenhof.circleimageview.CircleImageView>
         </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAC0BFBF"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/registration"
+                android:src="@drawable/registration"
+                android:layout_marginTop="20dp"></de.hdodenhof.circleimageview.CircleImageView>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/enquiry"
+                android:src="@drawable/enquiry"
+                android:layout_marginTop="20dp"></de.hdodenhof.circleimageview.CircleImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/review"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/review"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"></de.hdodenhof.circleimageview.CircleImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+
 </LinearLayout>
