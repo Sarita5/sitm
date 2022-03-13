@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_Registration Here_"
+        android:textColor="#09433E"
+        android:textSize="30dp"
+        android:typeface="serif"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"></TextView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:hint="Enter your name"
+                android:inputType="textPersonName"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:background="@drawable/box"
+                android:layout_marginTop="20dp"
+                android:id="@+id/rename"></EditText>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/rg"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20dp"
+                        android:text="Gender"></TextView>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Male"
+                        android:id="@+id/rmale"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"></RadioButton>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Female"
+                        android:id="@+id/rfemale"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"></RadioButton>
+                </RadioGroup>
+            </LinearLayout>
+            <EditText
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:hint="Contact Number"
+                android:id="@+id/remobile"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="number"
+                android:drawablePadding="10dp"
+                android:background="@drawable/box"
+                android:drawableLeft="@drawable/ic_baseline_phone_iphone_24"></EditText>
+            <EditText
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:hint="Your EmailId"
+                android:id="@+id/reemail"
+                android:background="@drawable/box"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:inputType="textEmailAddress"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_baseline_email_24"></EditText>
+            <EditText
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:hint="Password"
+                android:id="@+id/repassword"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/box"
+                android:layout_marginBottom="10dp"
+                android:inputType="textPassword"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_baseline_vpn_key_24"></EditText>
+            <EditText
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:hint="confirm Password"
+                android:background="@drawable/box"
+                android:layout_marginTop="20dp"
+                android:id="@+id/recpassword"
+                android:layout_marginBottom="10dp"
+                android:inputType="textPassword"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"></EditText>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#040D40"
+                android:id="@+id/rereg"
+                android:typeface="sans"
+                android:textStyle="italic"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Already Registered?"></TextView>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="Registered"
+                android:background="@drawable/rotate"
+                android:gravity="center"
+                android:elevation="4dp"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/white"
+                android:id="@+id/btreg"></Button>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

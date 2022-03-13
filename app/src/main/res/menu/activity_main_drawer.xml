@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_faculity"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Faculity" />
+        <item
+            android:id="@+id/nav_enquiry"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Enquiry" />
+        <item
+            android:id="@+id/nav_registration"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Registration" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="LogIn" />
+    </group>
+    <item android:title="Extra Options">
+        <menu>
+        <item
+            android:id="@+id/nav_review"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Review" />
+        <item
+            android:id="@+id/nav_shareus"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="ShareUs" />
+        </menu>
+    </item>
+</menu>

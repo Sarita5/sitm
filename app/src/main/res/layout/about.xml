@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="10dp"></TextView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/sa1"></ImageView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sagar Institute of Technology and Management was founded by the Sagar Educational Society in the year 2002 with an abobjective and foresight  to educate the masses in various fields of technical and professional studies, enabling them to establised and excel as thorough professionals, future engineers and management executive.The institution is affiliated to Dr. A.P.J. Abdul Kalam Technical University, Lucknow and is approved by AICTE, Ministry of HRD,  Government of India, New Delhi. It has obtained ISO 9001-2008 certification and has courses accredited by NBA. It has obtained candidacy from IAO.
+                    Adequately supported by the modern infrastructure, it provides an exceptionally well organized studying environment to prepare students capable of meeting the challenges in the fields of technological, social and managerial excellence.SITM, as its main objective has designed and defined its teaching methodology to promote excellence through quality education. The institution is engaged in shaping the
+                     future of candidates as world-class technocrats by providing them the most advanced learning facilities and supportive materials.The environment at SITM is highly conducive to building a solid foundation of knowledge and pursuit of excellence through personality developed and professional education.Engineering wing of Sagar Institute of Technology and Management [SITM] makes it an institute with a difference. It has highly qualified and experienced faculty, superb academic infrastructure and academic amenities. Institute provides an extensive research oriented activities, workshops, seminars, industry oriented problem.      The Institute has taken cognizance of current technological environment and industry demand. Accordingly, a host of co-curricular activities in technical field and personality development are planned like seminars, workshops, short programs, research work, innovation, paper presentation etc.
+                     The academic activities beyond the syllabi in the recent past include workshops in robotics, JAVA, Trends in Electrical Engineering, Nanotechnology, national seminar on Advances in science and organizing regional meet of Children Science Congress etc. Research work in developing compressed air engine is in progress. A large number of papers have been presented in national and international seminars by the faculty and students and the institute has started the publication of an annual journal of Science, Technology and Management. To encourage technical studies and writing among the students and technical fraternity, the institute publishes two journals for engineering and applied sciences and one for management."
+                        android:gravity="center"
+                        ></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>

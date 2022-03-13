@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_Management_"
+        android:textColor="#09433E"
+        android:textSize="30dp"
+        android:typeface="serif"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"></TextView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/box">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/sa20"
+                    android:layout_gravity="center"
+                    app:civ_border_color="@color/black"
+                    app:civ_border_width="2dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Ms.Madhu Agarwal"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Executive Director"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sagar Institute of Technology and Management"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" While laying down the foundation of SITM it was visualized to create a benchmark of excellence in the field of professional education and produce world-class technocrats with moral and ethical values. The world is on the threshold of new era with information technology making rapid strides to revolutionize entire work environment that will have strong impact on trade, business and industry. The infrastructural developments for changing life styles have become a necessity the emerging and the new generation technologies will dominate the future to set new trends, necessitating a whole new era to achieve new benchmark of success. SITM has already built strong links with key players in India and International corporate world to facilitate the placement of its students on significant positions. I feel delighted to say that the eight batches of SITM have passed out with an excellent campus placement record. I have been a firm believer that achievements come to those who go beyond the training, beyond the planning, beyond the motivation and into the zone of effective action. A little bit of focused effort can go a long way in fulfilling your ambition, by enhancing your enthusiasm and your effectiveness? Once you take a step to join SITM, a whole new world of brilliant possibility will open up to you."
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/box">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/sunil"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    app:civ_border_color="@color/black"
+                    app:civ_border_width="2dp"></de.hdodenhof.circleimageview.CircleImageView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Sunil Kumar Jhunjhunwala"
+        android:textSize="15dp"
+        android:textColor="@color/black"></TextView>
+     <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Secretary"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sagar Educational Society"
+                    android:gravity="left"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Sagar Educational Society has been established to promote quality professional education among the masses in area of Eastern Uttar Pradesh hither-to-fore neglected. Our aim is to provide best opportunity to the budding professionals-the technocrats and the executives, of the future to realize their potential and transform themselves from shy students to confident citizens with excellent capabilities in their respective fields and be able to withstand most stiff competition in today's environments.From the Management side, we have ensured that the students are afforded all the best facilities, infrastructure, faculty, amenities and opportunities for their development and growth. We welcome you all to the environments conducive to learning and developing excellent professionals."
+                    android:gravity="left"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"></TextView>
+            </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/box">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/anil"
+                    android:layout_gravity="right"
+                    app:civ_border_color="@color/black"
+                    android:layout_marginTop="30dp"
+                    app:civ_border_width="2dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginRight="5dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Mr.Anil Kumar Jhunjhunwala"
+                        android:gravity="right"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Treasurer"
+                        android:gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sagar Educational Society"
+                        android:gravity="right"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="With a commitment to provide higher, technical and professional education of global standards, Sagar Institute of Technology and Management (SITM) is ascribed as one of the 'most preferred' educational institutions in North India. SITM, a part of Sagar Group of Institutions (SGI), is spread over 25 acres of land. The institute has state of the art facilities. The institute is surrounded by greenery and plantation, which makes its atmosphere pollution free, tranquil and onducive to teaching, learning and research.The institute bristles with cutting edge technology and facilities. The striking feature of SITM is well ''tom planned and comprehensive infrastructure provided for both, the students and the faculty. The campus has a well-developed library, workshops, laboratories and a computer center. This makes studying at SITM a unique and once-in-a-lifetime experience.“With all the best Wishes”"
+                        android:gravity="right"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"></TextView>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/box">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/saur"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="30dp"
+                    app:civ_border_color="@color/black"
+                    app:civ_border_width="2dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Mr. Saurabh Dixit"
+                        android:gravity="left"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Director"
+                        android:gravity="left"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sagar Institute of Technology and Management"
+                        android:gravity="left"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Education is the manifestation of divinity already in man.These prophetic words of Swami Vivekananda echo in the hearts and minds of our dedicated and selfless faculty who work tirelessly to churn out the very best from our students. Amply supported with the state of the art infrastructure and well-developed labs, we at Sagar Institute of Technology and Management endeavor to provide holistic education to our students which nurtures the all-round development of the personality. Therefore, we not only focus on honing the technical skills of the students, but also concentrate on inculcating strong ethics and imparting value-based education so that our students can withstand the rigors of competitive professional life. Thus we take pride in cultivating students with deeply rooted values, positive attitude, strong fundamental knowledge, and a penchant for teamwork. SITM is a leading institute of North India with its alumni spread globally and to contribute to the task of nation-building.Keeping pace with modern times, we impart education in a harmonious environment adopting innovative teaching methodologies with the critical guidelines as Inspire, Innovate, and Invigorate. We wish for a very bright and prosperous future for the students and staff and urge the aspiring minds to come and explore the frontiers of knowledge and take their skills to a different level."
+                        android:gravity="left"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"></TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
